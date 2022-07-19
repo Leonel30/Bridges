@@ -16,7 +16,7 @@
 </script>
 <main class="container">
 	<div class="container_articles">
-		<div class="container_articles_l" in:fly="{{ x: -800, duration: 2000, delay:500 }}" >
+		<div class="container_articles_l" in:fly="{{ x: -800, duration: 1900, delay:500 }}" >
 			<SubArticle
 				elemento={element}
 				icon={icon}
@@ -27,7 +27,7 @@
 				bind:publication
 			/>
 		</div>
-		<div class="container_articles_r" in:fly="{{ x: 800, duration: 2000, delay:500 }}" >
+		<div class="container_articles_r" in:fly="{{ x: 800, duration: 1900, delay:500 }}" >
 			<SubArticle
 				elemento={element}
 				icon={icon}
